@@ -1,0 +1,34 @@
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title.html 
+
+excerpt_separator: "<!-- more -->"
+
+# Todos los autores tienen links personales
+authors:
+- name: Narinas
+  github: Narinas
+  email: narinas@narinas.xyz
+  
+# Información del blog
+name: "Título"
+baseurl: /
+url: ""
+domain: ""
+
+# Mapa de sitio
+all_categories: [
+  ["other", "杂记","/other/index.html"],
+  ["about", "关于","/about.html"]
+]
+
+# 
+paginate: 10 
+paginate_path: "index_:num"
+
+index_layout: "index.html"
+
+plugins: [jekyll-paginate]
+
+copyright: []
+#timezone: Asia/Shanghai
