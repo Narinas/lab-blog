@@ -1,3 +1,46 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
+
+<div class="col-md-8">
+    <h2>
+        {{ page.title }}
+        <div class="post-date">
+            <span class="glyphicon glyphicon-time"></span>
+            {{ page.date | date:"%Y-%m-%d" }}
+        </div>
+    </h2>
+
+    <div style="padding:10px">
+        {{ content }}
+    </div>
+</div>
+<!-- Blog Sidebar Widgets Column -->
+<div class="col-md-4">
+    <div class="well">
+        <h4>
+            Acerca del autor:
+        </h4>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    {% if page.author %}
+                    <li>
+                        {{ page.author }}
+                    </li>
+                    {% endif %}
+                    {% if page.email %}
+                    <li>
+                        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+                    </li>
+                    {% endif %}
+                    {% if page.website %}
+                    <li>
+                        <a href="{{ page.website | safe}}">{{ page.website }}</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

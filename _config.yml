@@ -12,14 +12,15 @@ authors:
   
 # Información del blog
 name: "Título"
-baseurl: /
+baseurl: ""
 url: ""
 domain: ""
 
 # Mapa de sitio
 all_categories: [
-  ["other", "杂记","/other/index.html"],
-  ["about", "关于","/about.html"]
+  ["Posts", "/index.html"],
+  ["Proyectos", "/projects.html"],
+  ["Acerca de", "/about.html"]
 ]
 
 # 
@@ -31,4 +32,3 @@ index_layout: "index.html"
 plugins: [jekyll-paginate]
 
 copyright: []
-#timezone: Asia/Shanghai

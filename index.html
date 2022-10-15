@@ -1,13 +1,11 @@
 ---
 layout: index
-title: "Android/iOS/React Native/Web相关"
-description: "探索尝试，发现未知可能！记录我学习使用Android/iOS开发、React Native、VPS、Linux、Web建站、Jekyll等技术过程中遇到的问题/解决办法，及一些个人心得总结。"
+title:  "Blog del Laboratorio"
+description: "Publicaciones"
 ---
 {% if page.paginator %}
   {% assign paginator = page.paginator %}
 {% endif %}
-
-<!-- ad -->
 
 <!-- Loop output paged posts -->
 {% for post in paginator.posts %}
@@ -22,7 +20,7 @@ description: "探索尝试，发现未知可能！记录我学习使用Android/i
 </h2>
 <hr>
 {{ post.excerpt }}
-	<p><h3><a href="{{ post.url }}">阅读全文 &raquo;</a></h3></p>
+	<p><h3><a href="{{ post.url }}">Leer &raquo;</a></h3></p>
 <hr>
 {% endfor %}
 
@@ -36,7 +34,7 @@ description: "探索尝试，发现未知可能！记录我学习使用Android/i
   </li>
   {% else %}
   <li>
-    <span>&laquo; Prev</span>
+    <span>&laquo; Anterior</span>
   </li>
   {% endif %}
 
@@ -62,7 +60,7 @@ description: "探索尝试，发现未知可能！记录我学习使用Android/i
    </li>
   {% else %}
   <li>
-    <span>Next &raquo;</span>
+    <span>Siguiente &raquo;</span>
   </li>
   {% endif %}
 </ul>
