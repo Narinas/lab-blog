@@ -20,7 +20,7 @@ all_categories: [
   ["Posts", "/index.html"],
   ["Proyectos", "/projects.html"],
   ["Acerca de", "/about.html"],
-  ["RSS", "/feed.xml"]
+  ["RSS", "/atom.xml"]
 ]
 
 # 
