@@ -1,6 +1,5 @@
 markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title.html 
 
 page_excerpts: true
 excerpt_separator: "<!-- more -->"
@@ -15,7 +14,6 @@ authors:
 name: "MOOLabs"
 baseurl: "/lab-blog"
 url: "https://moo-labs.github.io"
-domain: ""
 
 # Mapa de sitio
 all_categories: [
