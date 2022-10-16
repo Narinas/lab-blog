@@ -14,7 +14,7 @@ authors:
 # Información del blog
 name: "MOOLabs"
 baseurl: "/lab-blog"
-url: "moo-labs.github.io"
+url: "https://moo-labs.github.io"
 domain: ""
 
 # Mapa de sitio
