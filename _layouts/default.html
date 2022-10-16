@@ -12,15 +12,15 @@
   {% endif %}
   <title>{{ page.title }} - {{ site.name }}</title>
   <!-- Bootstrap Core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ '/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
   <!-- Custom CSS -->
-  <link href="/css/blog.css" rel="stylesheet" />
+  <link href="{{ '/css/blog.css' | relative_url }}" rel="stylesheet" />
   <!-- Highlight -->
-  <link href="/css/syntax.css" rel="stylesheet">
+  <link href="{{ '/css/syntax.css' | relative_url }}" rel="stylesheet">
   <!-- jQuery Version 1.11.0 -->
-  <script src="/js/jquery-1.11.0.js"> </script>
+  <script src="{{ '/js/jquery-1.11.0.js' | relative_url }}"> </script>
   <!-- Bootstrap Core JavaScript -->
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
   <!-- MathJaX -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

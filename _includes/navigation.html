@@ -4,7 +4,7 @@
 	</li>
 	{% for cat in site.all_categories %}
 		<li>
-			<a href="{{cat[1]}}">
+			<a href="{{ cat[1] | relative_url }}">
 			{{cat[0]}}
 			</a>
 		</li>

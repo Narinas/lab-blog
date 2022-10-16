@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title></title>
- <link href="http:///atom.xml" rel="self"/>
- <link href="http://"/>
- <updated>2022-10-15T23:06:11-05:00</updated>
+ <link href="http://http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://http://localhost:4000"/>
+ <updated>2022-10-15T23:20:08-05:00</updated>
  <author>
    <name></name>
    <email></email>
@@ -13,7 +13,7 @@
  
  <entry>
    <title>Asies hermanos</title>
-   <link href="http:///Asies-hermanos.html"/>
+   <link href="http://http://localhost:4000/Asies-hermanos.html"/>
    <updated>2022-07-07T00:00:00-05:00</updated>
    <id>/Asies hermanos</id>
    <content type="html">\[\int_0^{u} a |J(u)|d\alpha =  \pi\]

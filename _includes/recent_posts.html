@@ -7,7 +7,7 @@
   <ul class="list-unstyled">
       {% for post in latestposts limit:12 %}
                 <li>
-                  <a href="{{ post.url }}">
+                  <a href="{{ post.url | relative_url }}">
                     {{ post.title }}
                   </a>
                 </li>
