@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /BLOGSYS/
+Disallow: /blogsys/
+Sitemap: http://moo-labs.github.io/lab-blog/atom.xml
